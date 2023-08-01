@@ -3,6 +3,7 @@ body{
 	background-image: radial-gradient(white, darkcyan);
 }
 .Main{
+	display:gride;
 	margin: auto;
 	width: 250px;
 	height: 400px;
@@ -15,6 +16,7 @@ body{
 }
 
 .Number .Button{
+	display:gride;
 	background-color: transparent;
 	padding: 10px;
 	border: .5px solid burlywood;
@@ -31,6 +33,7 @@ body{
 	background-color:#74f2f0 ;
 }
 .Symbol-state{
+	display:gride;
 background-color: transparent;
 	padding: 10px;
 	border: .5px solid burlywood;
@@ -47,6 +50,7 @@ background-color: transparent;
 	background-color:orange ;
 }
 .btn-state{
+	display:gride;
 background-color: transparent;
 	padding: 10px;
 	border: .5px solid burlywood;
@@ -83,6 +87,7 @@ td{
 }
 
 #display{
+	display:gride;
 	text-align: right;
 	padding: 0px 38px 0px 10px;
 	font-size: 20px;
