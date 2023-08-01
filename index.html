@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Index</title>
+</head>
+<body>
+
+	<div class="Main">
+	<div class="Number">
+		<table>
+			<input name="display-result" id="display" placeholder ="Calculate" value="">
+			<tr>
+				<td><button type="button" name="Symbol_button" class="Symbol" id="Symbol(c)" onclick="Clear()">AC</button></td>
+				<td><button type="button" name="Symbol_button" class="Symbol" id="Symbol(/)" onclick="Click('/')">/</button></td>
+				<td><button type="button" name="Symbol_button" class="Symbol" id="Symbol(*)" onclick="Click('*')">*</button></td>
+				<td><button type="button" name="Symbol_button" class="Symbol" id="Symbol(-)" onclick="Click('-')">-</button></td>
+			</tr>
+			<tr>
+		<td><button type="button" name="Number_button" class="Button" id="Number1" onclick="Click('1')">1</button></td>
+		<td><button type="button" name="Number_button" class="Button" id="Number2" onclick="Click('2')">2</button></td>
+		<td><button type="button" name="Number_button" class="Button" id="Number3" onclick="Click('3')">3</button></td>
+		<td rowspan="2"><button type="button" name="Symbol_button" class="Symbol-state" id="Symbol(+)" onclick="Click('+')">+</button></td>
+			</tr>
+			<tr>
+		<td><button type="button" name="Number_button" class="Button" id="Number4" onclick="Click('4')">4</button></td>
+		<td><button type="button" name="Number_button" class="Button" id="Number5" onclick="Click('5')">5</button></td>
+		<td><button type="button" name="Number_button" class="Button" id="Number6" onclick="Click('6')">6</button></td>
+	        </tr>
+	        <tr>
+		<td><button type="button" name="Number_button" class="Button" id="Number7" onclick="Click('7')">7</button></td>
+		<td><button type="button" name="Number_button" class="Button" id="Number8" onclick="Click('8')">8</button></td>
+		<td><button type="button" name="Number_button" class="Button" id="Number9" onclick="Click('9')">9</button></td>
+		<td rowspan="2"><button type="button" name="Symbol_button" class="Symbol-state" id="Symbol(Enter)" onclick="EqualTo()">Enter</button></td>
+		</tr>
+		<tr>
+		<td colspan="2"><button type="button" name="Number_button" class="btn-state" id="Number0" onclick="Click('0')">0</button></td>
+		<td><button type="button" name="Symbol_button" class="Symbol" id="Symbol(.)">.</button></td>
+		</tr>
+		</table>
+	</div>
+	</div>
+	<div class="Navigate">
+		<button type="button" id="Nav_button" onclick="nextPage()">Color_Change</button>
+		<button type="button" id="Nav_button" onclick="nextPage2()">ToDo_list</button>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
