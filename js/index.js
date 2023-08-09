@@ -19,3 +19,6 @@ function nextPage(){
 function nextPage2(){
  location.href = "html/todo_list.html";
 }
+function nextPage3(){
+ location.href = "Bootstrap/demo.html";
+}
